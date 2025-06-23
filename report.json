@@ -1,0 +1,12 @@
+{
+    "url": "http://testphp.vulnweb.com",
+    "security_headers_missing": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-XSS-Protection",
+        "Strict-Transport-Security",
+        "Referrer-Policy"
+    ],
+    "vulnerable_to_sql_injection": false,
+    "vulnerable_to_xss": false
+}
